@@ -49,13 +49,13 @@ We'd like to introduce the ability to link to a piece of Seismic content directl
 <ul>
 <li>This means user can:</li>
 </ul>
-<ul>
+<ol>
 <li>link to Library or Profile content</li></li></li>
 
 <li>use “search” to find their content</li></li>
 
 <li>link directly to a folder</li>
-</ul>
+</ol>
 <li> User can only link to a single item (no multi-select like DocList) </li>
 <ul>
 <li>NOTE: this is an initialization parameter that is provided by UCP</li>
@@ -77,12 +77,13 @@ We'd like to introduce the ability to link to a piece of Seismic content directl
 <ul>
 <li>If the user viewing the page does not have access to the content that has been linked, do the following:
 </ul>
-Disable click event
+<ol>
+<li>Disable click event
 
-Do not change cursor from arrow to hand
+<li>Do not change cursor from arrow to hand
 
-Show tooltip on hover that reads “You do not have access to this content”
-
+<li>Show tooltip on hover that reads “You do not have access to this content”
+</ol>
 <li> Need to use the new “Highlight” option for any input that is selected  </li>
 <ul>
 <li>NOTE: This is a part of the new design system that changes the border color of the input when it is focused to make it clear to the user where they are in the UI. See Figma designs for more details
