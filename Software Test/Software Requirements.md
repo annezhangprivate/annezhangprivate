@@ -18,15 +18,15 @@ PRD(Product Requirement Document): 产品需求文档
 
 # Example:
 
-# User Story
+## User Story
 As a Content Creator, I want the ability to create a text link using the universal link so that I don't have to find the link separately and I can be sure that if content moves in the future that the link will not break. 
 
-# Additional Context
+## Additional Context
 Many of our customers will create a text link that links to a piece of content within Seismic. Right now this has to be done manually and it is not considered best practice due in part to the fact that if the content being linked to is moved to a new location, that link will break. 
 
 We'd like to introduce the ability to link to a piece of Seismic content directly as a part of creating a text link (much like the DocList or Navigation widgets we have today).
 
-# Requirements
+## Requirements
 <ul>
 <li> New option added to the dialog box for link creation that reads “Internal URL” </li>
 <li> Update the current “URL” option to read “External URL” 
