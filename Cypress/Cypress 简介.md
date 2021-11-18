@@ -37,3 +37,4 @@ Cypress 和 Webdriver 方式完全相反，它与应用程序在相同的生命�
 + Cypress 相对于其他测试工具来说，能从根本上控制整个自动化测试的流程
  
 ## Cypress 架构图
+<img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Cypress/Image/%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg">
