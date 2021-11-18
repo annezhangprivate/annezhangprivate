@@ -3,5 +3,5 @@
 + Cypress 是自集成的，提供了一套完整的端到端测试，无须借助其他外部工具，安装后即可快速地创建、编写、运行测试用例，且对每一步操作都支持回看
 + 不同于其他只能测试 UI 层的前端测试工具，Cypress 允许编写所有类型的测试，覆盖了测试金字塔模型的所有测试类型【界面测试，集成测试，单元测试】
 + Cypress 底层协议不采用 WebDriver
-<img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Software%20Test/Picture/lock1.bmp">
-<img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Software%20Test/Picture/lock2.bmp">
+<img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Cypress/Image/%E9%87%91%E5%AD%97%E5%A1%94.jpg">
+<img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Cypress/Image/%E9%87%91%E5%AD%97%E5%A1%942.jpg">
