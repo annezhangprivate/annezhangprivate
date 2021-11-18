@@ -38,3 +38,39 @@ Cypress 和 Webdriver 方式完全相反，它与应用程序在相同的生命�
  
 ## Cypress 架构图
 <img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Cypress/Image/%E6%9E%B6%E6%9E%84%E5%9B%BE.jpg">
+
+## Cypress 的特性
+
+### 时间穿梭【历史记录】
++Cypress 在测试代码运行时会自动拍照
++等测试运行结束后，用户可在 Cypress 提供的 Test Runner 里，通过悬停在命令上的方式查看运行时每一步都发生了什么
+
+### 实时重新加载
+当测试代码修改保存后，Cypress 会自动加载改动地方，并重新运行测试
+
+### Spies（间谍）、Stubs（存根）、Clock（时钟）
++Cypress 允许你验证并控制函数行为，Mock 服务器的响应，更改系统时间
++单元测试触手可及！
+
+### 运行结果一致性
+Cypress 架构不使用 Selenium 或 Webdriver，在运行速度、可靠性测试、测试结果一致性上均有良好保障
+
+### 可调试性
+当测试失败时，可以直接从开发者工具（F12 Chrome DevTools）进行调试.
+
+### 自动等待
++使用Cypress，永远无须在测试中添加 强制等待、隐性等待、显性等待
++Cypress 会自动等待元素至可靠操作状态时才执行命令或断言
++异步操作触手可及！
+
+### 网络流量控制
+Cypress 可以 Mock 服务器返回的结果，无须依赖后端服务器，即可实现模拟网络请求
+
+### 截图和视频
+Cypress 在测试运行失败时会自动截图，在无头运行时（无GUI界面）会录制整个测试套件的视频
+
+## Cypress 优势的总结
+像我们在用 Selenium 时，需要集成单元测试框架（unittest、pytest），想要好看的测试报告还得集成（allure），想要 Mock 还得引入对应的 Mock 库
+
+而 Cypress 是开箱即用！看下图！
+<img src="https://github.com/annezhangprivate/annezhangprivate/blob/main/Cypress/Image/%E4%BC%98%E5%8A%BF%E6%80%BB%E7%BB%93.jpg">
